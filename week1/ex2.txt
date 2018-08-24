@@ -1,0 +1,26 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd an.lvova/
+    5  ls
+    6  mkdir ~/week1
+    7  cd week1/
+    8  cd ..
+    9  ls
+   10  cd ..
+   11  ls
+   12  cd an.lvova/
+   13  cd week1/
+   14  grep 'gcc' -R /usr/bin/ | sort -r > ex1.txt
+   15  cat ex1.txt 
+   16  vim ex3.sh
+   17  sh ex3.sh 
+   18  vim main.c
+   19  gcc main.c -o ex4
+   20  vim main.c 
+   21  gcc main.c -o ex4
+   22  ./ex4 
+   23  vim main.c 
+   24  gcc main.c -o ex4
+   25  ./ex4 
+   26  history > ex2.txt
