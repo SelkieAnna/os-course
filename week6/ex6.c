@@ -6,6 +6,7 @@
 int main() {
 	int fd[2];
 	pipe(fd);
+	int status;
 	pid_t p1;
 	printf("Creating child 1...\n");
 	p1 = fork();
@@ -16,7 +17,7 @@ int main() {
 		if (p2 != 0) {
 			write(fd[1], &p2, sizeof(pid_t));
 			printf("Waiting for child 2...\n");
-			wait(p2);
+			waitpid(p2, &status, 0);
 			printf("Child 2 was stopped\n");
 		} else {	// if it's child 2
 			while(1);
