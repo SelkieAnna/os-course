@@ -17,7 +17,7 @@ int main() {
 		if (p2 != 0) {
 			write(fd[1], &p2, sizeof(pid_t));
 			printf("Waiting for child 2...\n");
-			waitpid(p2, &status, 0);
+			waitpid(p2, &status, WUNTRACED);
 			printf("Child 2 was stopped\n");
 		} else {	// if it's child 2
 			while(1);
