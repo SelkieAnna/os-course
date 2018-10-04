@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1963	    616	      8	   2587	    a1b	../week6/ex6
