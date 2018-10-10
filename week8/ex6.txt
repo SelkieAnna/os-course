@@ -1,0 +1,6 @@
+We need to compute byte offset first:
+	8 KB = 2^13 bytes -> 13 bits are needed to store byte offset
+Now computing a number of page table entries (number of pages):
+	16 bits - 13 bits = 3 bits is the amount of memory we can spend to store a page number
+	2^3 = 8 pages
+8 entries are needed for a single-level linear page table

@@ -1,0 +1,1 @@
+The physical address is an address of actually present mempory, whereas virtual address is an address of some illusional memory, which can only be used when mapped to the physical one.
