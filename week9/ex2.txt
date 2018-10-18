@@ -1,0 +1,5 @@
+The sequence of repeating numbers (quantity of which is not more than the number of page frames) would give bigger hit/miss ratio.
+The reason for that is there simply wouldn't be any misses except the ones at the first reference.
+
+In contrast, the sequence of absolutely different numbers (that do not repeat) would give miss every time.
+Hence, the sequence would give smaller hit/miss ratio.
