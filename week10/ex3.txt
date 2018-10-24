@@ -1,0 +1,31 @@
+total 8
+-rw-r--r-- 3 an.lvova domain users  0 Oct 24 13:23 _ex1.txt
+-rw-r--r-- 3 an.lvova domain users  0 Oct 24 13:23 _ex1_1.txt
+-rw-r--r-- 3 an.lvova domain users  0 Oct 24 13:23 _ex1_2.txt
+-rw-r--r-- 1 an.lvova domain users  0 Oct 24 13:38 _ex3.txt
+-rw-r--r-- 1 an.lvova domain users 55 Oct 24 13:26 ex1.txt
+-rw-r--r-- 1 an.lvova domain users 54 Oct 24 13:33 ex2.txt
+-rw-r--r-- 1 an.lvova domain users  0 Oct 24 13:48 ex3.txt
+total 12
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1.txt
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1_1.txt
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1_2.txt
+-rwxr--rwx 1 an.lvova domain users   0 Oct 24 13:38 _ex3.txt
+-rw-r--r-- 1 an.lvova domain users  55 Oct 24 13:26 ex1.txt
+-rw-r--r-- 1 an.lvova domain users  54 Oct 24 13:33 ex2.txt
+-rw-r--r-- 1 an.lvova domain users 429 Oct 24 13:48 ex3.txt
+total 12
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1.txt
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1_1.txt
+-rw-r--r-- 3 an.lvova domain users   0 Oct 24 13:23 _ex1_2.txt
+-rwxrwxrwx 1 an.lvova domain users   0 Oct 24 13:38 _ex3.txt
+-rw-r--r-- 1 an.lvova domain users  55 Oct 24 13:26 ex1.txt
+-rw-r--r-- 1 an.lvova domain users  54 Oct 24 13:33 ex2.txt
+-rw-r--r-- 1 an.lvova domain users 866 Oct 24 13:48 ex3.txt
+
+file permission 660 (-rw-rw----)
+	is a file permission, owner and group have read & write, others do not have any
+file permission 775 (-rwxrwxr-x)
+	is a file permission, owner and group have read, write & execute, others have only read & execute
+file permission 777 (-rwxrwxrwx)
+	is a file permission, owner, group and others have all permissions (read, write & execute)
